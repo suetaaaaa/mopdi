@@ -1,0 +1,31 @@
+-- Table: shanidar.mopdi_data
+
+-- DROP TABLE IF EXISTS public.mopdi_data;
+
+CREATE TABLE IF NOT EXISTS public.mopdi_data
+(
+    fio text COLLATE pg_catalog."default",
+    age text COLLATE pg_catalog."default",
+    numberib text COLLATE pg_catalog."default",
+    id uuid,
+    run_dt time with time zone,
+    gr1 text COLLATE pg_catalog."default",
+    gr text COLLATE pg_catalog."default",
+    name text COLLATE pg_catalog."default",
+    col1 text COLLATE pg_catalog."default",
+    col2 text COLLATE pg_catalog."default",
+    col3 text COLLATE pg_catalog."default",
+    tek text COLLATE pg_catalog."default",
+    tekotd text COLLATE pg_catalog."default",
+    vr text COLLATE pg_catalog."default",
+    vrotd text COLLATE pg_catalog."default",
+    col4 text COLLATE pg_catalog."default",
+    refer integer,
+    control integer,
+    current integer
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.mopdi_data
+    OWNER to postgres;
