@@ -1,5 +1,0 @@
-USERNAME = 'postgres'
-PASSWORD = 'icui4cu'
-HOST = 'localhost'
-PORT = '5432'
-DB = 'postgres'
