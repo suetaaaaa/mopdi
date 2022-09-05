@@ -20,6 +20,8 @@ from sqlalchemy.orm import sessionmaker
 
 
 # load_dotenv()
+# env_path = ('C:/dushu_pitona/my_super_project/db_configs/.env')
+# load_dotenv(dotenv_path=env_path)
 
 # DB_USERNAME = os.getenv('DB_USERNAME')
 # DB_PASSWORD = os.getenv('DB_PASSWORD')
